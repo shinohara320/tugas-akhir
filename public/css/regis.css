@@ -1,0 +1,79 @@
+html,body{
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    background: rgb(34,193,195);
+    background: linear-gradient(22deg, rgba(34,193,195,1) 0%, rgb(253, 187, 45) 100%);
+    font-family: 'Josefin Sans', sans-serif;
+}
+.container{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    width: 400px;
+    padding: 20px 50px; 
+    background: white;
+    border-radius: 10px;
+}
+.container form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.container h1{
+    text-align: center;
+    padding: 0 0 20px 0;
+    border-bottom: 1px solid silver;
+}
+#input-name,
+#input-phone,
+#input-birthday, 
+#input-email, 
+#input-password,
+#input-retype-password{
+    margin-bottom: 20px;
+    border-radius: none;
+    border: none;
+    border-bottom: 1px solid #000;
+    height:2rem;
+    width: 18rem;
+    outline: none;
+}
+.registerbtn button{
+    outline: none;
+    border-color: #476543;
+    border: none;
+    border-bottom: 1px solid #000;
+    border-radius: 5px;
+    color: #ffff;
+    font-weight: 700;
+    color: white;
+    background-color: #87be7e;
+    width: 30vh;
+    height: 5vh;
+    font-size: 14px;
+}
+button:hover{
+    background-color: #fdbb2d;
+    transition: .5s;
+}
+.gender{
+    margin-bottom: 20px;
+}
+.signin-link{
+    margin-bottom: 20px;
+}
+.signin-link a{
+    color:#87be7e;
+    text-decoration: none;
+}
+
+.signin-link a:hover{
+    text-decoration: underline;
+    transition: .5s;
+
+}
