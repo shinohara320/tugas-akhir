@@ -1,0 +1,36 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins:100,300,400,500,600,700,800, 800i, 900&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+}
+.page-container{
+    box-sizing: border-box;
+    display: flex;
+    justify-content: space-around;
+    height: 100vh;
+}
+.card-shoe{
+    width: 40%;
+}
+.desc-product{
+    width: 60%;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+.desc-product a{
+    text-decoration: none;
+    color: #fff;
+    background-color: #00AA5B;
+    padding: 10px 20px;
+    width: 80px;
+}
+.desc-product .title{
+    margin-top: 30px;
+}
+.desc-product .desc{
+    margin: 40px 0;
+}

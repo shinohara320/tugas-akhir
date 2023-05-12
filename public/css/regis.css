@@ -1,13 +1,13 @@
-html,body{
-    margin: 0;
+@import url('https://fonts.googleapis.com/css?family=Poppins:100,300,400,500,600,700,800, 800i, 900&display=swap');
+
+* {
     padding: 0;
-    height: 100vh;
-    width: 100%;
-    display: flex;
-    justify-content: center;
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+}
+body{
     background: rgb(34,193,195);
     background: linear-gradient(22deg, rgba(34,193,195,1) 0%, rgb(253, 187, 45) 100%);
-    font-family: 'Josefin Sans', sans-serif;
 }
 .container{
     position: absolute;

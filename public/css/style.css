@@ -1,49 +1,42 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
 html,body{
     width: 100%;
     height: 1024px;
     margin: 0;
     padding: 0;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-family: "Poppins", sans-serif;
 }
 
 nav ul{
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     padding: 10px;
     margin: 0;
-    background-color: #dedede;
+    background-color: #212529;
     list-style: none;
+    height: 10vh;
 }
-nav ul li{
-    padding: 0;
-    margin: 0;
+nav ul .nav-left{
+    padding: 0 0 0 0;
+    margin: -10px;
 }
-nav ul li img{
+nav ul .nav-left img{
     padding: 0;
     margin-left: 20px;
+    width: 30%;
 }
 nav ul .nav-right a{
+    text-align: right;
+    font-weight: 500;
     text-decoration: none;
     margin-left: 20px;
-    color: black;
+    color: #fff;
 }
-.left-side{
-    width: 30%;
-    padding: 200px 100px;
+nav .nav-left,
+.nav-right{
+    width: 50%;
 }
-.left-side h2{
-    margin-bottom: 20px;
-}
-.left-side h1{
-    color: aquamarine;
-    margin-bottom: 80px;
-}
-.button-lp button{
-    margin: 0 20px 0 10px;
-    background-color: black;
-    color: white;
-    outline: none;
-    border: none;
-    padding: 10px 20px;
-    border-radius: 5px;
+nav ul .nav-right{
+    margin: 30px 10px 0 0;
+    text-align: end;
 }
