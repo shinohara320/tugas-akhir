@@ -119,18 +119,3 @@
     top: calc(0% - 5px);
     left: calc(0% - 5px);
   }
-  
-  h2 {
-    padding: 1em;
-    margin-top: 1em;
-    background: rgba(0,0,0,.3);
-    text-align: center;
-    color: white;
-    border-radius: .2em;
-    display: inline-block;
-    transform: translateX(calc((100vw - 100%) / 2))
-  }
-  
-  h2 a {
-    color: #f5b916
-  }

@@ -25,12 +25,13 @@
     text-decoration: none;
     color: #fff;
     background-color: #00AA5B;
-    padding: 10px 20px;
-    width: 80px;
+    padding: 10px 25px;
+    width: 50px;
+    margin-top: 20px;
 }
 .desc-product .title{
     margin-top: 30px;
 }
 .desc-product .desc{
-    margin: 40px 0;
+    margin: 20px 200px 20px 0;
 }
