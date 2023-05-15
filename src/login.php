@@ -5,14 +5,14 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>LOGIN</title>
-    <link rel="stylesheet" type="text/css" href="../public/css/style.css">
-    <link rel="stylesheet" type="text/css" href="../public/css/login.css">
+    <link rel="stylesheet" type="text/css" href="../assets/css/style.css">
+    <link rel="stylesheet" type="text/css" href="../assets/css/login.css">
 </head>
 <body>
     <nav>
     <ul>
         <div class="nav-left">
-            <img src="../public/images/logo-company.png" alt="logo">
+            <img src="../assets/images/logo-company.png" alt="logo">
         </div>
         <div class="nav-right">
             <a href="homepage.php">HOMEPAGE</a>

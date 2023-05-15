@@ -34,7 +34,7 @@ body {
     left: 0;
     width: 100%;
     height: 100%;
-    background: #1BBFE9;
+    background: #FF2E98;
     clip-path: circle(150px at 80% 20%);
     transition: 0.5s ease-in-out;
 }
@@ -148,7 +148,7 @@ body {
     cursor: pointer;
 }
 
-.container .card .contentBx .size span:hover { 
+.container .card .contentBx .size span:hover {  /* other bug */
     background: #B90000;
 }
 .container .card .contentBx .color span {
@@ -330,7 +330,7 @@ body {
   /* ease-out */
   width: 660px;
   height: 100%;
-  background-color: #3f96cd;
+  background-color: #FF2E98;
   position: absolute;
   left: -659px;
 }

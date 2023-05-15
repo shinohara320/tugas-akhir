@@ -2,10 +2,10 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <link rel="stylesheet" href="../public/css/style.css">
-    <link rel="stylesheet" href="../public/css/hero.css">
-    <link rel="stylesheet" href="../public/css/testimoni.css">
-    <link rel="stylesheet" href="../public/css/footer.css">
+    <link rel="stylesheet" href="../assets/css/style.css">
+    <link rel="stylesheet" href="../assets/css/hero.css">
+    <link rel="stylesheet" href="../assets/css/testimoni.css">
+    <link rel="stylesheet" href="../assets/css/footer.css">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Homepage</title>
@@ -15,11 +15,13 @@
     <nav>
         <ul>
             <div class="nav-left">
-                    <img src="../public/images/logo-company.png" alt="logo">
+            <a href="homepage.php">
+              <img src="../assets/images/logo-company.png" alt="logo">
+            </a>
             </div>
             <div class="nav-right">
                     <a href="#">HOMEPAGE</a>
-                    <a href="contact.html">CONTACT</a>
+                    <a href="contact.php">CONTACT</a>
             </div>
         </ul>
     </nav>
@@ -65,7 +67,7 @@
     envy of all your friends!
     </p>
     <div class="ads-container" >
-        <div class="left-side">
+        <div class="left-side" >
             <img src="show.php?id=19" alt="">
             <div class="right-txt" style="position: absolute; top: 1300px;">
                 <h3>Air Jordan Retro 6</h3>
@@ -100,21 +102,21 @@
     </p>
     <div class="section-container">
         <div class="male-section">
-            <img src="../public/images/nike-air.jpg" alt="">
+            <img src="../assets/images/nike-air.jpg" alt="">
             <div class="text-container">
-                <h3>Male</h3>
+                <h3>Man</h3>
                 <a href="male-section.php">Shop</a>
             </div>
         </div>
         <div class="male-section">
-            <img src="../public/images/nike-zoom.jpg" alt="">
+            <img src="../assets/images/nike-zoom.jpg" alt="">
             <div class="text-container">
-                <h3>Female</h3>
+                <h3>Woman</h3>
                 <a href="female-section.php">Shop</a>
             </div>
         </div>
         <div class="kids-section">
-            <img src="../public/images/nike-idk.jpg" alt="">
+            <img src="../assets/images/nike-idk.jpg" alt="">
             <div class="text-container">
                 <h3>Kids</h3>
                 <a href="kids-section.php">Shop</a>
@@ -172,7 +174,10 @@
         <div class="footer-navigation">
             <h3>Navigasi</h3>
             <a href="#">Homepage</a>
-            <a href="contact.html">Kontak Kami</a>
+            <a href="contact.php">Kontak Kami</a>
+            <a href="male-section.php">Man</a>
+            <a href="female-section.php">Woman</a>
+            <a href="kids-section.php">Kids</a>
         </div>
         <div class="footer-subscribe">
             <h3>Subscribe!</h3>
@@ -184,7 +189,7 @@
         </div>
     </div>
     <!-- footer end -->
-    <script src="../public/js/hero.js"></script>
-    <script src="../public/js/testimoni.js"></script>
+    <script src="../assets/js/hero.js"></script>
+    <script src="../assets/js/testimoni.js"></script>
 </body>
 </html>

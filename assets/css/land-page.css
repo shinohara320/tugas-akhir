@@ -1,5 +1,4 @@
 @import url('https://fonts.googleapis.com/css?family=Poppins:100,300,400,500,600,700,800, 800i, 900&display=swap');
-
 * {
     padding: 0;
     margin: 0;
@@ -8,6 +7,7 @@
 .row{
   height:100%;
   margin:auto;
+  display: flex;
 }
 .left-heading{
   font-weight:700;
@@ -29,29 +29,22 @@
   padding: 25px;
   align-items:center;
   vertical-align:center;
-  height: 100%; /* Should be removed. Only for demonstration */
+  height: 100%; 
   padding-top: 15%;
 }
-/* Create two equal columns that floats next to each other */
-.right-column {
-  background-image:url('https://images.tokopedia.net/img/cache/500-square/VqbcmM/2021/1/18/e248ecde-36c8-4121-81b3-ee037519c76b.jpg');
+
+.right-column img {
   object-fit:cover;
   background-position:50% 50%;
   float: left;
-  width: 50%;
+  width: 100%;
   padding: 10px;
   align-items:center;
   vertical-align:center;
   background-repeat: no-repeat;
-  height: 60%; /* Should be removed. Only for demonstration */
+  height: 60%; 
 }
 
-/* Clear floats after the columns */
-.row:after {
-  content: "";
-  display: table;
-  clear: both;
-}
 .btn {
   text-decoration: none;
   color: #fff;

@@ -5,19 +5,21 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Male</title>
-    <link rel="stylesheet" href="../public/css/style.css">
-    <link rel="stylesheet" href="../public/css/footer.css">
-    <link rel="stylesheet" href="../public/css/detail-product.css">
+    <link rel="stylesheet" href="../assets/css/style.css">
+    <link rel="stylesheet" href="../assets/css/footer.css">
+    <link rel="stylesheet" href="../assets/css/detail-product.css">
 </head>
 <body>
     <nav>
     <ul>
         <div class="nav-left">
-            <img src="../public/images/logo-company.png" alt="logo">
+            <a href="homepage.php">
+              <img src="../assets/images/logo-company.png" alt="logo">
+            </a>
         </div>
         <div class="nav-right">
             <a href="homepage.php">HOMEPAGE</a>
-            <a href="contact.html">CONTACT</a>
+            <a href="contact.php">CONTACT</a>
         </div>
     </ul>
     </nav>
@@ -51,7 +53,7 @@
             <div class="category">
                 <h3>' . $data['category'] . '</h3>
             </div>
-            <a href="contact.html">Pesan</a>
+            <a href="contact.php">Pesan</a>
             </div>';
             echo '</div>';
             
@@ -75,7 +77,10 @@
     <div class="footer-navigation">
         <h3>Navigasi</h3>
         <a href="homepage.php">Homepage</a>
-        <a href="detail-product.php?id=2">Kontak Kami</a>
+        <a href="contact.php">Kontak Kami</a>
+        <a href="male-section.php">Man</a>
+        <a href="female-section.php">Woman</a>
+        <a href="kids-section.php">Kids</a>
     </div>
     <div class="footer-subscribe">
         <h3>Subscribe!</h3>
